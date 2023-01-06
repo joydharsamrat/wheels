@@ -1,8 +1,9 @@
 import Aos from 'aos';
 import { useEffect } from 'react';
 import './App.css';
-import Home from './Pgaes/Home/Home';
 import "aos/dist/aos.css";
+import { RouterProvider } from 'react-router-dom';
+import { router } from './Routes/Router';
 
 function App() {
   useEffect(() => {
@@ -11,9 +12,10 @@ function App() {
     });
   }, [])
   return (
+    <div className="max-w-[1400px] mx-auto">
+      <RouterProvider router={router}>
 
-    <div className="App">
-      <Home></Home>
+      </RouterProvider>
     </div>
   );
 }
