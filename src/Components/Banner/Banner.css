@@ -1,0 +1,10 @@
+.banner {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(240, 230, 230, 0)), url(/public/assets/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headline {
+    font-family: 'Anton', sans-serif;
+}
